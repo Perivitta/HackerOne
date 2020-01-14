@@ -10,3 +10,9 @@ nikto -h 134.209.226.211 -p 80 /// host and port that we will be using is 80
 nikto -h 134.209.226.211 -p 80 -o nikto_results -F txt // to save the results in a file we use 0 as output and f as file.
 rm -r nikto_results // to delete the dir
 chmod r+x filename // to force start a file when there's permisssion denied error 13
+
+
+/////////////////////////////////////////////////////////////////////////////
+  NETWORK CONFIGURATIONS - NMAP
+/////////////////////////////////////////////////////////////////////////////
+nmap -h
