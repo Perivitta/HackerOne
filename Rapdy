@@ -1,0 +1,26 @@
+cd D-TECT-1
+python ./d-tect.py
+If choosen number ==1 
+  Input = www.rapdy.net
+  Output = ?
+  If choosen number ==2 
+    Input = www.rapdy.net
+    Output = ?
+      If choosen number ==3
+      Input = www.rapdy.net
+      Output = ?
+        If choosen number ==4 
+        Input = www.rapdy.net
+        Output = ?
+          If choosen number ==5 
+          Input = www.rapdy.net
+          Output = ?
+            If choosen number ==7 
+            Input = www.rapdy.net
+            Output = ?
+                If choosen number ==8 
+                Input = www.rapdy.net
+                Output = ?
+nslookup www.rapdy.net
+nslookup IP // WhateverId it displays at the address zone
+ipcalc 10.112.136.10
