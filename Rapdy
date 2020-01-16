@@ -24,3 +24,8 @@ If choosen number ==1
 nslookup www.rapdy.net
 nslookup IP // WhateverId it displays at the address zone
 ipcalc 10.112.136.10
+
+
+
+
+using cmd :::: arp -a -v
