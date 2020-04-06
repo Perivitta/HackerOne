@@ -13,7 +13,7 @@ Commands:
      # cd ../../../  $$$ until it reach root
      # showfigfonts 
      # lolcat -h 
-     # gedit /etc/bash.bashrc
+     # sudo nano /etc/bash.bashrc
      ~~~ Will be editing the txt file ~~~~
      type below fi 
      # clear
