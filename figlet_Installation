@@ -1,0 +1,23 @@
+$$$ ( command purpose )
+### is just for allignment purpose ( Do not include hastag in the cmd )
+
+Commands:
+     # sudo apt-get install figlet
+     # sudo apt-get install git
+     # apt-get install rubygems
+     # apt-get install gedit
+     # git clone https://github.com/busyloop/lolcat
+     # cd lolcat
+     # cd bin 
+     # gem install lolcat
+     # cd ../../../  $$$ until it reach root
+     # showfigfonts 
+     # lolcat -h 
+     # gedit /etc/bash.bashrc
+     ~~~ Will be editing the txt file ~~~~
+     type below fi 
+     # clear
+     figlet 
+     
+     - clear $$$ to clear the console
+     - figlet -f fontname "yourtexthere"  -w 10000 | lolcat   $$$ this is just for testing 
