@@ -1,0 +1,87 @@
+HackThebox VPN setup for PR's desktop under EU server
+-----------------------------------------------------
+rm -r foldername  [to remove wrong gitclone]
+### download the vpn file then add to my github acc  ###
+git clone https://github.com/Perivitta/hackthebox.git
+cd hackthebox
+ls
+openvpn PR09.ovpn
+-------------------------------------------------------------------------------
+sudo apt-get gobuster
+apt-get install -y gzip.
+apt-get install tar
+( printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" ; tail -c +25 cat.ab ) | tar xvz
+apt-get install imagemagick
+
+
+-------------------------------------------------------------------------------
+import hashlib
+import requests
+from bs4 import BeautifulSoup
+
+link = "http://docker.hackthebox.eu:31649/"
+
+session = request.session()
+get_req = session.get(link).content
+source BeautifulSoup(get_req,"html.parser")
+word = source.find("h3").text
+md5_word=hashlib.md5(word.encode()).hexdigest()
+data={"hash":md5_word}
+post_req = session.post(link,data=data).content
+source = BeautifulSoup(post_req,"html.parser")
+flag=source.find("p").text
+print(flag)
+
+------------------------------
+sudo apt-get install radare2
+git clone https://github.com/Perivitta/HTB_Impossible.gitgit 
+chmod 775 impossible_password.bin
+./impossible_password.bin
+r2 impossible_password.bin
+aaa
+s main
+pdf
+00+
+s 0x00400968
+wx?
+wx 9090
+pdf
+wa nop
+q
+./impossible_password.bin
+SuperSeKretKey
+hackthehacker
+
+------------------------------
+ 
+git clone https://github.com/Perivitta/HTB_baby.git
+cd HTB_baby
+chmod +x baby
+./baby
+hackthebox
+r2 baby
+aaa
+s main
+pdf
+---------------------------------------
+apt install python-pip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
